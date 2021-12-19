@@ -1,5 +1,5 @@
 {
-    "name": "Player UserBot",
+    "name": "ShreyaGoshal",
     "description": "Telegram UserBot To Play Songs And Videos In Telegram Voice Chat.",
     "logo": "",
     "keywords": [
@@ -7,7 +7,7 @@
         "MusicPlayer",
         "VideoPlayer"
     ],
-    "repository": "https://github.com/TeamOctave/VCUserBot",
+    "repository": "https://github.com/MR-JINN-OF-TG/ShreyaGoshal",
     "env": {
         "SESSION": {
             "description": "Pyrogram String Session",
