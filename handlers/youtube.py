@@ -5,7 +5,6 @@ import math
 import os
 import re
 import time
-import lyricsgenius
 from random import randint
 from urllib.parse import urlparse
 
