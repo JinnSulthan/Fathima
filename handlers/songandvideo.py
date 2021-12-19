@@ -332,21 +332,3 @@ async def ytmusic(client, message: Message):
         if files and os.path.exists(files):
             os.remove(files)
 
-@Client.on_message(filters.command("lyrics"))
-async def lrsearch(_, message: Message):  
-    m = await message.reply_text("Searching Lyrics")
-    query = message.text.split(None, 1)[1]
-    x = "OXaVabSRKQLqwpiYOn-E4Y7k3wj-TNdL5RfDPXlnXhCErbcqVvdCF-WnMR5TBctI"
-    y = lyricsgenius.Genius(x)
-    y.verbose = False
-    S = y.search_song(query, get_full_info=False)
-    if S is None:
-        return await m.edit("Lyrics not found :p")
-    xxx = f"""
-**Lyrics Search Powered By @NazriyaSongBot Music Bot**
-**Searched Song:-** __{query}__
-**Found Lyrics For:-** __{S.title}__
-**Artist:-** {S.artist}
-**__Lyrics:__**
-{S.lyrics}"""
-    await m.edit(xxx)
