@@ -19,7 +19,7 @@ bot = Bot(
     plugins=dict(root="handlers"),
 )
 
-print(f"[INFO]: MusicPlayer_TG v{__version__} STARTED SUCCESFULLY !")
+print(f"[INFO]: ShreyaGoshal v{__version__} STARTED SUCCESFULLY !")
 
 bot.start()
 run()
