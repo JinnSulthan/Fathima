@@ -24,5 +24,5 @@ contact_filter = filters.create(
     or message.outgoing
 )
 
-bot = Client(SESSION, API_ID, API_HASH, plugins=dict(root="Userbot"))
+bot = Client(SESSION, API_ID, API_HASH, plugins=dict(root="shreya"))
 call_py = PyTgCalls(bot)
