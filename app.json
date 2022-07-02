@@ -1,34 +1,35 @@
 {
-    "name": "ShreyaGoshal",
-    "description": "Telegram UserBot To Play Songs And Videos In Telegram Voice Chat.",
-    "logo": "",
+    "name": "TG-MusicPlayer",
+    "description": "A Telegram Userbot to play Songs in Voice Chat",
+    "logo": "https://telegra.ph/file/cceceb8a63085eefe1d53.jpg",
     "keywords": [
         "Telegram",
-        "MusicPlayer",
-        "VideoPlayer"
+        "VCBot",
+        "MusicPlayer"
     ],
-    "repository": "https://github.com/MR-JINN-OF-TG/ShreyaGoshal",
+    "repository": "https://github.com/MR-JINN-OF-TG/Fathima",
     "env": {
         "SESSION": {
             "description": "Pyrogram String Session",
             "required": true
         },
         "API_ID": {
-            "description": "Enter APP ID Please Download from my.telegram.org/apps",
+            "description": "my.telegram.org",
+            "required": true
+        },
+        "API_HASH": {
+            "description": "my.telegram.org",
             "required": true
         },
         "HNDLR": {
-            "description": "this will be used as a prefix in all commands",
-            "required": false,
-            "value": "/"
+            "description": "Handler | Default (!)",
+            "value": "!",
+            "required": false 
         },
-        "API_HASH": {
-            "description": "Input HASH API Please Download from my.telegram.org/apps",
-            "required": true
-        },
-        "SUDO_USERS": {
-            "description": "List of User ID users count as admin everywhere (separate using space)",
-            "required": true
+        "GROUP_MODE": {
+            "description": "Anyone can play, if set to True. Set it to False to restrict play access to Sudo Users/Contacts only",
+            "value": "True",
+            "required": true 
         }
     },
     "addons": [],
