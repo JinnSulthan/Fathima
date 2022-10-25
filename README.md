@@ -1,4 +1,4 @@
-![Fathima](https://github.com/MR-JINN-OF-TG/Fathima/tree/main/Fathima.jpg) 
+![Fathima](https://github.com/MR-JINN-OF-TG/Fathima/Fathima.jpg) 
 Vc singer. 🙃
 
 
